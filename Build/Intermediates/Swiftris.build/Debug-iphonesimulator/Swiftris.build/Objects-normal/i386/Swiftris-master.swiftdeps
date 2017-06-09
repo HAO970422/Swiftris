@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "35f45c0000f882e71aa88768dfa3188f"
+build_time: [545643648, 697196000]
+inputs:
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/LShape.swift": [545228154, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/SquareShape.swift": [545227458, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/GameScene.swift": [545643394, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/JShape.swift": [545228261, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/Swiftris.swift": [545275793, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/Shape.swift": [545234566, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/Array2D.swift": [545219151, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/LineShape.swift": [545228148, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/SShape.swift": [545228345, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/TShape.swift": [545227925, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/Block.swift": [545220536, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/GameViewController.swift": [545317007, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/ZShape.swift": [545228542, 0]
+  "/Users/zhanghao/Desktop/Swiftris/Swiftris/AppDelegate.swift": [544324655, 0]
