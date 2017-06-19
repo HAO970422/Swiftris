@@ -20,14 +20,14 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
     
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var levelLabel: UILabel!
-    
     @IBOutlet weak var linesLabel: UILabel!
     //keep track of last point on the screen at which a shape movement occurred or where a pan begins
     var panPointReference: CGPoint?
     
     
     //rotate
-    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
+    @IBAction func didTap(_ sender: UITapGestureRecognizer)
+    {
         swiftris.rotateShape()
     }
     //translate
@@ -210,6 +210,21 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         {
             swiftris.beginGame()
         }
+    }
+    
+    @IBAction func gameDidLevelUp(_ sender: UIButton) {
+        swiftris.level = swiftris.level + 1
+        levelLabel.text = "\(swiftris.level)"
+        //decrease tick interval and go faster
+        if scene.tickLengthMills >= 100
+        {
+            scene.tickLengthMills -= 100
+        }
+        else if scene.tickLengthMills > 50
+        {
+            scene.tickLengthMills -= 50
+        }
+        scene.playSound(sound: "Sounds/levelUp.mp3")
     }
     
     func gameDidLevelUp(swiftris: Swiftris) {

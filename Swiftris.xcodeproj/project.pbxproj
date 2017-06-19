@@ -109,12 +109,12 @@
 			children = (
 				61DD0C9F1E8F372F00A0DBDF /* AppDelegate.swift */,
 				61DD0CA31E8F372F00A0DBDF /* Actions.sks */,
+				B328334F1E9BCFF80076FC00 /* Swiftris.swift */,
 				61DD0CA51E8F372F00A0DBDF /* GameScene.swift */,
 				61DD0CA71E8F372F00A0DBDF /* GameViewController.swift */,
 				B32833391E9B37AB0076FC00 /* Array2D.swift */,
 				B328333B1E9B99DF0076FC00 /* Block.swift */,
 				B352F99C1E9CFCA60022D7D3 /* Shape */,
-				B328334F1E9BCFF80076FC00 /* Swiftris.swift */,
 				61DD0CA91E8F372F00A0DBDF /* Main.storyboard */,
 				61DD0CAE1E8F372F00A0DBDF /* LaunchScreen.storyboard */,
 				61DD0CB11E8F372F00A0DBDF /* Info.plist */,

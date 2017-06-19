@@ -6,11 +6,15 @@ provides-nominal:
 provides-member:
 - ["C8Swiftris18GameViewController", ""]
 provides-dynamic-lookup:
+- "DownButtonPressed"
+- "LeftButtonPressed"
+- "RightButtonPressed"
 - "UpButtonPressed"
 - "didPan"
 - "didSwipe"
 - "didTap"
 - "didTick"
+- "gameDidLevelUp"
 - "gestureRecognizer"
 - "levelLabel"
 - "linesLabel"
@@ -23,6 +27,7 @@ depends-top-level:
 - !private "!="
 - !private "&&"
 - !private "*"
+- !private "+"
 - !private "-"
 - !private "-="
 - !private "=="
@@ -42,6 +47,7 @@ depends-top-level:
 - "Swiftris"
 - "SwiftrisDelegate"
 - !private "TickLengthLevelOne"
+- "UIButton"
 - "UIGestureRecognizer"
 - "UIGestureRecognizerDelegate"
 - "UILabel"
@@ -359,10 +365,14 @@ depends-member:
 - ["C8Swiftris18GameViewController", "Bool"]
 - !private ["C8Swiftris18GameViewController", "CGFloat"]
 - ["C8Swiftris18GameViewController", "CGPoint"]
+- ["C8Swiftris18GameViewController", "DownButtonPressed"]
 - ["C8Swiftris18GameViewController", "GameScene"]
+- ["C8Swiftris18GameViewController", "LeftButtonPressed"]
+- ["C8Swiftris18GameViewController", "RightButtonPressed"]
 - !private ["C8Swiftris18GameViewController", "SKView"]
 - ["C8Swiftris18GameViewController", "Swiftris"]
 - !private ["C8Swiftris18GameViewController", "TickLengthLevelOne"]
+- ["C8Swiftris18GameViewController", "UIButton"]
 - ["C8Swiftris18GameViewController", "UIGestureRecognizer"]
 - ["C8Swiftris18GameViewController", "UILabel"]
 - ["C8Swiftris18GameViewController", "UIPanGestureRecognizer"]
@@ -531,10 +541,14 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGFloat"]
 - ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "DownButtonPressed"]
 - ["CSo8NSObject", "GameScene"]
+- ["CSo8NSObject", "LeftButtonPressed"]
+- ["CSo8NSObject", "RightButtonPressed"]
 - !private ["CSo8NSObject", "SKView"]
 - ["CSo8NSObject", "Swiftris"]
 - !private ["CSo8NSObject", "TickLengthLevelOne"]
+- ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UIGestureRecognizer"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIPanGestureRecognizer"]
@@ -900,10 +914,14 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CGFloat"]
 - ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "DownButtonPressed"]
 - ["CSo11UIResponder", "GameScene"]
+- ["CSo11UIResponder", "LeftButtonPressed"]
+- ["CSo11UIResponder", "RightButtonPressed"]
 - !private ["CSo11UIResponder", "SKView"]
 - ["CSo11UIResponder", "Swiftris"]
 - !private ["CSo11UIResponder", "TickLengthLevelOne"]
+- ["CSo11UIResponder", "UIButton"]
 - ["CSo11UIResponder", "UIGestureRecognizer"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIPanGestureRecognizer"]
@@ -1056,10 +1074,14 @@ depends-member:
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGFloat"]
 - ["CSo16UIViewController", "CGPoint"]
+- ["CSo16UIViewController", "DownButtonPressed"]
 - ["CSo16UIViewController", "GameScene"]
+- ["CSo16UIViewController", "LeftButtonPressed"]
+- ["CSo16UIViewController", "RightButtonPressed"]
 - !private ["CSo16UIViewController", "SKView"]
 - ["CSo16UIViewController", "Swiftris"]
 - !private ["CSo16UIViewController", "TickLengthLevelOne"]
+- ["CSo16UIViewController", "UIButton"]
 - ["CSo16UIViewController", "UIGestureRecognizer"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UIPanGestureRecognizer"]
@@ -1302,4 +1324,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "3bb55d2ba6a57daa8e22230c97742541"
+interface-hash: "5e397bf74823bc6c0f1e6961952c53e2"
