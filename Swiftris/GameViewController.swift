@@ -62,6 +62,7 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         }
     }
     
+    
     @IBAction func UpButtonPressed(_ sender: Any) {
         swiftris.rotateShape()
     }
@@ -175,6 +176,7 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         }
     }
     
+    
     func gameDidBegin(swiftris: Swiftris) {
         
         //when the game begins, reset score and level label
@@ -212,6 +214,25 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         }
     }
     
+    @IBAction func BreakUp(_ sender: Any) {
+        
+        if swiftris.score > 200
+        {
+            //update the score
+            swiftris.score = swiftris.score - 50
+            self.scoreLabel.text = "\(swiftris.score)"
+            
+            //update the lines
+            self.linesLabel.text = "\(swiftris.lines)"
+            
+            scene.animateCollapsingLines(linesToRemove: swiftris.removeAllBlocks(), fallenBlocks: swiftris.removeAllBlocks())
+            {
+                self.swiftris.letShapeFall()
+            }
+            
+            scene.playSound(sound: "Sounds/bomb.mp3")
+        }
+    }
     @IBAction func gameDidLevelUp(_ sender: UIButton) {
         swiftris.level = swiftris.level + 1
         levelLabel.text = "\(swiftris.level)"

@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["C8Swiftris18GameViewController", ""]
 provides-dynamic-lookup:
+- "BreakUp"
 - "DownButtonPressed"
 - "LeftButtonPressed"
 - "RightButtonPressed"
@@ -363,6 +364,7 @@ depends-member:
 - !private ["C8Swiftris9GameScene", "tickLengthMills"]
 - !private ["C8Swiftris18GameViewController", "BlockSize"]
 - ["C8Swiftris18GameViewController", "Bool"]
+- ["C8Swiftris18GameViewController", "BreakUp"]
 - !private ["C8Swiftris18GameViewController", "CGFloat"]
 - ["C8Swiftris18GameViewController", "CGPoint"]
 - ["C8Swiftris18GameViewController", "DownButtonPressed"]
@@ -539,6 +541,7 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "BlockSize"]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "BreakUp"]
 - !private ["CSo8NSObject", "CGFloat"]
 - ["CSo8NSObject", "CGPoint"]
 - ["CSo8NSObject", "DownButtonPressed"]
@@ -912,6 +915,7 @@ depends-member:
 - !private ["CSo22UIPanGestureRecognizer", "velocity"]
 - !private ["CSo11UIResponder", "BlockSize"]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "BreakUp"]
 - !private ["CSo11UIResponder", "CGFloat"]
 - ["CSo11UIResponder", "CGPoint"]
 - ["CSo11UIResponder", "DownButtonPressed"]
@@ -1072,6 +1076,7 @@ depends-member:
 - !private ["CSo6UIView", "text"]
 - !private ["CSo16UIViewController", "BlockSize"]
 - ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "BreakUp"]
 - !private ["CSo16UIViewController", "CGFloat"]
 - ["CSo16UIViewController", "CGPoint"]
 - ["CSo16UIViewController", "DownButtonPressed"]
@@ -1324,4 +1329,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "5e397bf74823bc6c0f1e6961952c53e2"
+interface-hash: "9c49152a69570df1213ab02d473d39d2"

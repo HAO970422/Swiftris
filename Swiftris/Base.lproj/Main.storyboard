@@ -79,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLb-MD-NEB" userLabel="LevelUpBtn">
-                                <rect key="frame" x="227" y="443" width="80" height="80"/>
+                                <rect key="frame" x="224" y="443" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.52441471809999995" green="0.46539346990000002" blue="0.73760707489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -106,6 +106,14 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="DownButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="4km-60-nIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIZ-Ks-usy">
+                                <rect key="frame" x="16" y="443" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BreakButton"/>
+                                <connections>
+                                    <action selector="BreakUp:" destination="BV1-FR-VrT" eventType="touchUpInside" id="aWP-Lr-09w"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -145,6 +153,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BreakButton" width="200" height="200"/>
         <image name="DownButton" width="200" height="200"/>
         <image name="LevelUpButton" width="200" height="200"/>
         <image name="whitebg" width="84" height="100"/>

@@ -207,6 +207,7 @@ SWIFT_CLASS("_TtC8Swiftris18GameViewController")
 @property (nonatomic, readonly) BOOL prefersStatusBarHidden;
 - (void)didTick;
 - (void)nextShape;
+- (IBAction)BreakUp:(id _Nonnull)sender;
 - (IBAction)gameDidLevelUp:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
