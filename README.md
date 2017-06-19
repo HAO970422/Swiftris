@@ -6,7 +6,7 @@
 2、运行平台：根据布局的约束，笔者在iPhoneSE模拟器中模拟调试，在iPodTouch真机运行。故建议在iPhoneSE或iPodTouch上测试运行。
 
 3、界面展示：
-![image](https://github.com/HAO970422/Swiftris/screenshots/IMG_0005.png)
+![image](https://github.com/HAO970422/Swiftris/screenshots/001.png)
 
 4、界面说明：
   （1）左上方的区域是方块降落和移动的区域
