@@ -147,11 +147,11 @@ class Swiftris
     
     func endGame()
     {
+        delegate?.gameDidEnd(swiftris: self)
+        
         lines = 0
         score = 0
         level = 1
-        
-        delegate?.gameDidEnd(swiftris: self)
     }
     
     //drop the shape by a single row until it detects an illegal placement state

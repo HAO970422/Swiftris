@@ -205,12 +205,14 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         
         scene.stopTicking()
         
+        let msg = "Level: \(swiftris.level) Lines: \(swiftris.lines)\n Score: \(swiftris.score)"
+        
         //play game over sound
         scene.playSound(sound: "Sounds/gameover.mp3")
         //remove all blocks
         scene.animateCollapsingLines(linesToRemove: swiftris.removeAllBlocks(), fallenBlocks: swiftris.removeAllBlocks())
         {
-            let msg = "Level: \(swiftris.level)\n Lines: \(swiftris.lines)\n Score: \(swiftris.score)"
+            
             let controller = UIAlertController(title: "Congratulations!", message : msg, preferredStyle: .alert)
             let cancelAction = UIAlertAction(title : "Phew", style : .cancel, handler : nil)
             controller.addAction(cancelAction)
