@@ -245,6 +245,9 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         }
     }
     @IBAction func gameDidLevelUp(_ sender: UIButton) {
+        
+        scene.playSound(sound: "Sounds/levelUp.mp3")
+        
         swiftris.level = swiftris.level + 1
         levelLabel.text = "\(swiftris.level)"
         //decrease tick interval and go faster
@@ -256,7 +259,7 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         {
             scene.tickLengthMills -= 50
         }
-        scene.playSound(sound: "Sounds/levelUp.mp3")
+        
     }
     
     func gameDidLevelUp(swiftris: Swiftris) {
