@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "783481e72a87e835d30cacf555eaa4fa"
-build_time: [551195643, 881509000]
+build_time: [551195793, 624097000]
 inputs:
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/LShape.swift": [545228154, 0]
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/SquareShape.swift": [548856236, 0]
@@ -13,6 +13,6 @@ inputs:
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/SShape.swift": [545228345, 0]
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/TShape.swift": [545227925, 0]
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/Block.swift": [548844375, 0]
-  "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/GameViewController.swift": [551195643, 0]
+  "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/GameViewController.swift": [551195793, 0]
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/ZShape.swift": [545228542, 0]
   "/Users/zhanghao/Desktop/CS\u8BFE\u7A0B\uFF08\u6B63\u5728\uFF09/(1)\u79FB\u52A8\u5E94\u7528\u5F00\u53D1/iosApp/Swiftris/Swiftris/AppDelegate.swift": [548840945, 0]

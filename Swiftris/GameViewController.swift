@@ -210,8 +210,17 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         //remove all blocks
         scene.animateCollapsingLines(linesToRemove: swiftris.removeAllBlocks(), fallenBlocks: swiftris.removeAllBlocks())
         {
+            let msg = "Level: \(swiftris.level)\n Lines: \(swiftris.lines)\n Score: \(swiftris.score)"
+            let controller = UIAlertController(title: "Congratulations!", message : msg, preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title : "Phew", style : .cancel, handler : nil)
+            controller.addAction(cancelAction)
+            self.present(controller, animated: true, completion: nil)
+            
             swiftris.beginGame()
         }
+        
+        
+        
     }
     
     @IBAction func BreakUp(_ sender: Any) {
